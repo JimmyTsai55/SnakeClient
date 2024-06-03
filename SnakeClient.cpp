@@ -41,6 +41,7 @@ int main() {
 		return -2;
 	}
 	printf("連接Server成功\n");
+	//10101
 
 	CreateThread(NULL, NULL,
 		(LPTHREAD_START_ROUTINE)sendScoreToServer, NULL, NULL, NULL); //呼叫多線程函式並用LP做轉型
